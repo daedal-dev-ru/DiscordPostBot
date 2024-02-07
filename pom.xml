@@ -19,14 +19,6 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
                 <version>3.3.0</version>
-                <configuration>
-                    <relocations>
-                        <relocation>
-                            <pattern>dev.dejvokep.boostedyaml</pattern>
-                            <shadedPattern>ru.daedal.libs</shadedPattern>
-                        </relocation>
-                    </relocations>
-                </configuration>
                 <executions>
                     <execution>
                         <phase>package</phase>
