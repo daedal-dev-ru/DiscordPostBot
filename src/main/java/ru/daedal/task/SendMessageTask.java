@@ -22,7 +22,7 @@ public class SendMessageTask extends Thread {
             }
             try {
                 clientBot.sendMessage(config.getMessage());
-                Thread.sleep(config.getPeriod() * 3600L);
+                Thread.sleep(config.getPeriod() * 1000L);
             } catch (InterruptedException e) {
                 BotLogger.logError("An error occurred in SendMessageTask!");
                 BotLogger.logError(e.toString());
