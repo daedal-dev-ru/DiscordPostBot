@@ -1,4 +1,4 @@
-package ru.daedal.utils;
+package ru.daedal.util;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
