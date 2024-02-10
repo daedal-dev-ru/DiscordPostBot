@@ -86,14 +86,14 @@ discord.message.attachments=attachments/example.jpg,attachments/example2.png
 1. Optional: create a working directory for bot and enter it
 > $ sudo mkdir -p /home/DiscordPostBot && cd /home/DiscordPostBot
 2. Install wget
-```console
+```
 $ sudo apt update
 $ sudo apt install wget
 ```
 3. Download **the latest** bot .jar file via **wget**
 > $ sudo wget https://github.com/daedal-dev-ru/DiscordPostBot/releases/download/1.0-RELEASE/DiscordPostBot.jar
 4. Install _Java_
-```console
+```
 $ sudo apt update
 $ sudo apt install default-jdk
 $ java -version
